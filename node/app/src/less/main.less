@@ -1,0 +1,35 @@
+@header-height: 70px;
+
+
+.without-margin {
+  margin: unset;
+}
+
+
+#colors() {
+  primary: #f8dc81;
+  secondary: #eff7e1;
+  light-accent: #a2d0c1;
+  dark-accent: #214151;
+}
+
+
+body {
+  .without-margin();
+}
+
+
+#header {
+  height: @header-height;
+  background-color: #colors[secondary];
+}
+
+
+#content {
+  background-color: #colors[primary];
+  position: fixed;
+  top: @header-height;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
