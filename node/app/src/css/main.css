@@ -16,3 +16,31 @@ body {
   width: 100%;
   height: 100%;
 }
+.frame {
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 3px;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
+.frame-light {
+  border-color: #214151;
+  background-color: #a2d0c1;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 3px;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
+.frame-dark {
+  border-color: #a2d0c1;
+  background-color: #214151;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 3px;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
