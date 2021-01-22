@@ -7,6 +7,29 @@ body {
 #header {
   height: 70px;
   background-color: #eff7e1;
+  position: relative;
+}
+#header .logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #a2d0c1;
+  position: absolute;
+  top: 5px;
+  left: 30px;
+}
+#header .items {
+  position: absolute;
+  top: 5px;
+  left: 300px;
+  display: flex;
+}
+#header .items .item {
+  width: 100px;
+  height: 30px;
+  background-color: #a2d0c1;
+  display: inline-block;
+  margin: 10px;
 }
 #content {
   background-color: #f8dc81;

@@ -22,6 +22,32 @@ body {
 #header {
   height: @header-height;
   background-color: #colors[secondary];
+  position: relative;
+
+  .logo {
+    width: @header-height - 10px;
+    height: @header-height - 10px;
+    border-radius: 50%;
+    background-color: #colors[light-accent];
+    position: absolute;
+    top: 5px;
+    left: 30px;
+  }
+
+  .items {
+    position: absolute;
+    top: 5px;
+    left: 300px;
+    display: flex;
+
+    .item {
+      width: 100px;
+      height: 30px;
+      background-color: #colors[light-accent];
+      display: inline-block;
+      margin: 10px;
+    }
+  }
 }
 
 
